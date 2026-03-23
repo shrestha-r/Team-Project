@@ -10,6 +10,12 @@ public record UserSkillResponse(
         Integer confidence,
         LocalDate lastPracticed,
         Integer importance,
-        Double urgency
+        Double urgency,
+        Double healthScore,
+        Double decayRate,
+        Integer daysSince,
+        Double daysToReminder,
+        Double daysToCemetery,
+        Integer relearnWeeks
 ) {
 }

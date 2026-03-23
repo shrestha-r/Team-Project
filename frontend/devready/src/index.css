@@ -211,6 +211,12 @@ a {
   border-color: #f4e0af;
 }
 
+.tag.danger {
+  background: #fee2e2;
+  color: var(--danger);
+  border-color: #fca5a5;
+}
+
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
